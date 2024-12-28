@@ -1,5 +1,5 @@
 // import { useState } from "react"
-import Form from "./components/form"
+// import Form from "./components/form"
 import Miniludo from "./components/Miniludo"
 const App = () => {
   // let myName = "dipo"
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-    <Form/>
+    {/* <Form/> */}
     <Miniludo/>
     {/* <h1>{myName} is a good boy</h1>
     <h6>{Math.random()} is a dynamic number betweeen zero and one</h6>
