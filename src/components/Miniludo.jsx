@@ -7,95 +7,196 @@ const [number2, setnumber2] = useState("roll the dice")
         setnumber1(Math.ceil(Math. random() * (6 - 0) + 0))
         setnumber2(Math.ceil(Math. random() * (6 - 0) + 0))
      }
-     if (number1 === 1 || number2 === 1 ) {
-         document.getElementById("one").style.display = "block"
-         document.getElementById("onee").style.display = "block"
-         document.getElementById("two").style.display = "none"
-         document.getElementById("twoo").style.display = "none"
-         document.getElementById("three").style.display = "none"
-         document.getElementById("threee").style.display = "none"
-         document.getElementById("four").style.display = "none"
-         document.getElementById("fourr").style.display = "none"
-         document.getElementById("five").style.display = "none"
-         document.getElementById("fivee").style.display = "none"
-         document.getElementById("six").style.display = "none"
-         document.getElementById("sixx").style.display = "none"
-     }
-   
-     if (number1 === 2 || number2 === 2 ) {
-        document.getElementById("one").style.display = "none"
-        document.getElementById("onee").style.display = "none"
-        document.getElementById("two").style.display = "block"
-        document.getElementById("twoo").style.display = "block"
-        document.getElementById("three").style.display = "none"
+
+
+      if (number1 === 1) {
+          document.getElementById("one").style.display = "block"
+          document.getElementById("two").style.display = "none"
+          document.getElementById("three").style.display = "none"
+          document.getElementById("four").style.display = "none"
+          document.getElementById("five").style.display = "none"
+          document.getElementById("six").style.display = "none"
+      }
+
+      if (number2 === 1) {
+        document.getElementById("onee").style.display = "block"
+        document.getElementById("twoo").style.display = "none"
         document.getElementById("threee").style.display = "none"
-        document.getElementById("four").style.display = "none"
         document.getElementById("fourr").style.display = "none"
-        document.getElementById("five").style.display = "none"
         document.getElementById("fivee").style.display = "none"
-        document.getElementById("six").style.display = "none"
         document.getElementById("sixx").style.display = "none"
     }
 
-    if (number1 === 3 || number2 === 3 ) {
+    if (number1 === 2) {
+      document.getElementById("one").style.display = "none"
+      document.getElementById("two").style.display = "block"
+      document.getElementById("three").style.display = "none"
+      document.getElementById("four").style.display = "none"
+      document.getElementById("five").style.display = "none"
+      document.getElementById("six").style.display = "none"
+  }
+
+      if (number2 === 2) {
+      document.getElementById("onee").style.display = "none"
+      document.getElementById("twoo").style.display = "block"
+      document.getElementById("threee").style.display = "none"
+      document.getElementById("fourr").style.display = "none"
+      document.getElementById("fivee").style.display = "none"
+      document.getElementById("sixx").style.display = "none"
+      }
+
+
+      if (number1 === 3) {
         document.getElementById("one").style.display = "none"
-        document.getElementById("onee").style.display = "none"
         document.getElementById("two").style.display = "none"
-        document.getElementById("twoo").style.display = "none"
         document.getElementById("three").style.display = "block"
-        document.getElementById("threee").style.display = "block"
         document.getElementById("four").style.display = "none"
-        document.getElementById("fourr").style.display = "none"
         document.getElementById("five").style.display = "none"
-        document.getElementById("fivee").style.display = "none"
         document.getElementById("six").style.display = "none"
-        document.getElementById("sixx").style.display = "none"
     }
 
-    if (number1 === 4 || number2 === 4 ) {
+          if (number2 === 3) {
+          document.getElementById("onee").style.display = "none"
+          document.getElementById("twoo").style.display = "none"
+          document.getElementById("threee").style.display = "block"
+          document.getElementById("fourr").style.display = "none"
+          document.getElementById("fivee").style.display = "none"
+          document.getElementById("sixx").style.display = "none"
+        }
+
+
+        
+      if (number1 === 4) {
         document.getElementById("one").style.display = "none"
-        document.getElementById("onee").style.display = "none"
         document.getElementById("two").style.display = "none"
-        document.getElementById("twoo").style.display = "none"
         document.getElementById("three").style.display = "none"
-        document.getElementById("threee").style.display = "none"
         document.getElementById("four").style.display = "block"
-        document.getElementById("fourr").style.display = "block"
         document.getElementById("five").style.display = "none"
-        document.getElementById("fivee").style.display = "none"
         document.getElementById("six").style.display = "none"
-        document.getElementById("sixx").style.display = "none"
     }
 
-    if (number1 === 5 || number2 === 5 ) {
-        document.getElementById("one").style.display = "none"
-        document.getElementById("onee").style.display = "none"
-        document.getElementById("two").style.display = "none"
-        document.getElementById("twoo").style.display = "none"
-        document.getElementById("three").style.display = ""
-        document.getElementById("threee").style.display = ""
-        document.getElementById("four").style.display = "none"
-        document.getElementById("fourr").style.display = "none"
-        document.getElementById("five").style.display = "block"
-        document.getElementById("fivee").style.display = "block"
-        document.getElementById("six").style.display = "none"
-        document.getElementById("sixx").style.display = "none"
-    }
+          if (number2 === 4) {
+          document.getElementById("onee").style.display = "none"
+          document.getElementById("twoo").style.display = "none"
+          document.getElementById("threee").style.display = "none"
+          document.getElementById("fourr").style.display = "block"
+          document.getElementById("fivee").style.display = "none"
+          document.getElementById("sixx").style.display = "none"
+        }
 
-    if (number1 === 6 || number2 === 6 ) {
+        
+      if (number1 === 5) {
         document.getElementById("one").style.display = "none"
-        document.getElementById("onee").style.display = "none"
         document.getElementById("two").style.display = "none"
-        document.getElementById("twoo").style.display = "none"
         document.getElementById("three").style.display = "none"
-        document.getElementById("threee").style.display = "none"
         document.getElementById("four").style.display = "none"
-        document.getElementById("fourr").style.display = "none"
-        document.getElementById("five").style.display = "none"
-        document.getElementById("fivee").style.display = "none"
-        document.getElementById("six").style.display = "block"
-        document.getElementById("sixx").style.display = "block"
+        document.getElementById("five").style.display = "block"
+        document.getElementById("six").style.display = "none"
     }
+
+          if (number2 === 5) {
+          document.getElementById("onee").style.display = "none"
+          document.getElementById("twoo").style.display = "none"
+          document.getElementById("threee").style.display = "none"
+          document.getElementById("fourr").style.display = "none"
+          document.getElementById("fivee").style.display = "block"
+          document.getElementById("sixx").style.display = "none"
+        }
+
+
+        
+      if (number1 === 6) {
+        document.getElementById("one").style.display = "none"
+        document.getElementById("two").style.display = "none"
+        document.getElementById("three").style.display = "none"
+        document.getElementById("four").style.display = "none"
+        document.getElementById("five").style.display = "none"
+        document.getElementById("six").style.display = "block"
+    }
+
+          if (number2 === 6) {
+          document.getElementById("onee").style.display = "none"
+          document.getElementById("twoo").style.display = "none"
+          document.getElementById("threee").style.display = "none"
+          document.getElementById("fourr").style.display = "none"
+          document.getElementById("fivee").style.display = "none"
+          document.getElementById("sixx").style.display = "block"
+        }
+   
+    //  if (number1 === 2 || number2 === 2 ) {
+    //     document.getElementById("one").style.display = "none"
+    //     document.getElementById("onee").style.display = "none"
+    //     document.getElementById("two").style.display = "block"
+    //     document.getElementById("twoo").style.display = "block"
+    //     document.getElementById("three").style.display = "none"
+    //     document.getElementById("threee").style.display = "none"
+    //     document.getElementById("four").style.display = "none"
+    //     document.getElementById("fourr").style.display = "none"
+    //     document.getElementById("five").style.display = "none"
+    //     document.getElementById("fivee").style.display = "none"
+    //     document.getElementById("six").style.display = "none"
+    //     document.getElementById("sixx").style.display = "none"
+    // }
+
+    // if (number1 === 3 || number2 === 3 ) {
+    //     document.getElementById("one").style.display = "none"
+    //     document.getElementById("onee").style.display = "none"
+    //     document.getElementById("two").style.display = "none"
+    //     document.getElementById("twoo").style.display = "none"
+    //     document.getElementById("three").style.display = "block"
+    //     document.getElementById("threee").style.display = "block"
+    //     document.getElementById("four").style.display = "none"
+    //     document.getElementById("fourr").style.display = "none"
+    //     document.getElementById("five").style.display = "none"
+    //     document.getElementById("fivee").style.display = "none"
+    //     document.getElementById("six").style.display = "none"
+    //     document.getElementById("sixx").style.display = "none"
+    // }
+
+    // if (number1 === 4 || number2 === 4 ) {
+    //     document.getElementById("one").style.display = "none"
+    //     document.getElementById("onee").style.display = "none"
+    //     document.getElementById("two").style.display = "none"
+    //     document.getElementById("twoo").style.display = "none"
+    //     document.getElementById("three").style.display = "none"
+    //     document.getElementById("threee").style.display = "none"
+    //     document.getElementById("four").style.display = "block"
+    //     document.getElementById("fourr").style.display = "block"
+    //     document.getElementById("five").style.display = "none"
+    //     document.getElementById("fivee").style.display = "none"
+    //     document.getElementById("six").style.display = "none"
+    //     document.getElementById("sixx").style.display = "none"
+    // }
+
+    // if (number1 === 5 || number2 === 5 ) {
+    //     document.getElementById("one").style.display = "none"
+    //     document.getElementById("onee").style.display = "none"
+    //     document.getElementById("two").style.display = "none"
+    //     document.getElementById("twoo").style.display = "none"
+    //     document.getElementById("three").style.display = ""
+    //     document.getElementById("threee").style.display = ""
+    //     document.getElementById("four").style.display = "none"
+    //     document.getElementById("fourr").style.display = "none"
+    //     document.getElementById("five").style.display = "block"
+    //     document.getElementById("fivee").style.display = "block"
+    //     document.getElementById("six").style.display = "none"
+    //     document.getElementById("sixx").style.display = "none"
+    // }
+
+    // if (number1 === 6 || number2 === 6 ) {
+    //     document.getElementById("one").style.display = "none"
+    //     document.getElementById("onee").style.display = "none"
+    //     document.getElementById("two").style.display = "none"
+    //     document.getElementById("twoo").style.display = "none"
+    //     document.getElementById("three").style.display = "none"
+    //     document.getElementById("threee").style.display = "none"
+    //     document.getElementById("four").style.display = "none"
+    //     document.getElementById("fourr").style.display = "none"
+    //     document.getElementById("five").style.display = "none"
+    //     document.getElementById("fivee").style.display = "none"
+    //     document.getElementById("six").style.display = "block"
+    //     document.getElementById("sixx").style.display = "block"
+    // }
 
 
 
